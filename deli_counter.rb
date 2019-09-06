@@ -16,3 +16,4 @@ def take_a_number(array, name)
   array.push(name)
   position = array.index(name)
   puts "Wecome #{name}, you are #{array.index(name)+1} in line."
+  return name
