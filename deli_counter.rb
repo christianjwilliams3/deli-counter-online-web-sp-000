@@ -12,11 +12,9 @@ def line(array)
   end 
 end 
 
-def take_a_number(array, name)
-  array.push(name)
-  position = array.index(name)
-  puts "Wecome #{name}, you are #{array.index(name)+1} in line."
-  return name, position
+def take_a_number(deli, name)
+  deli << name
+  puts "Welcome, #{name}. You are number #{deli.length} in line."
 end
 
 def now_serving(array)
